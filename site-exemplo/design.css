@@ -23,7 +23,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: rgb(58, 0, 112);
+    color: rgb(219, 37, 122);
 }
 
 img.lado {
@@ -33,10 +33,10 @@ img.lado {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(58, 0, 112);
+    color: rgb(197, 83, 201);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(26, 26, 255);
+    color: rgb(134, 27, 120);
 }
