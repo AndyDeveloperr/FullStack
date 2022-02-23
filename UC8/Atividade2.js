@@ -23,11 +23,11 @@ if (oQueCadastrar == "palestrante"){
     if (data1 == "20/02"){
         console.log("digite sua idade")
     }else {
-        console.log("data invalida, informar uma data valida")}
+        console.log("data inválida, informar uma data valida")}
         if (nascimento <= 2005){
             console.log("informar nome")
         }else {
-            console.log("evento disponivel apenas para maior de 18 anos, digite uma data valida")}
+            console.log("evento disponivel apenas para maior de 18 anos, digite uma data válida")}
             if (nome.length <= 4){
                 console.log("nome só é permitido com 4 ou mais caracteres, digite um nome valido")
             }else if (nome.length == 0) {
