@@ -12,8 +12,3 @@ for (let contador = 0; contador <= numeroDeAlunos; contador++) {
   }
 }
 
-let nomeDeAlunos ["Caique","Tiago","Odirlei","Jessica"]
-
-for (let nome of nomeDeAlunos){
-console.log(`Está pessoa se chama ${nome}`)
-}
