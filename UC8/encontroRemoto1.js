@@ -1,19 +1,23 @@
-let numeroDeAlunos = 10;
+var listaDePecas = ["Amortecedor", "Motor", "Filtro de ar"] 
 
-for (let contador = 0; contador <= numeroDeAlunos; contador++) {
- console.log (contador)
-
- if (contador == 0) {
-    console.log ("O número atual é zero");
-  } else if (contador % 2 == 0) {
-      console.log ("O número " +contador+ " é par")
-  } else {
-      console.log ("número " + contador+ " é impar" )
-  }
+let peso = 50 ; 
+if (peso < 100) {
+console.log ("A peça deve pesar no minimo 100g")
+} else {
+    console.log ("A peça tem o peso adequado")
 }
 
-let nomeDeAlunos ["Caique","Tiago","Odirlei","Jessica"]
+if (listaDePecas.length < 10){
+console.log("É possivel cadastrar mais peças")
+} else {
+console.log("Não tem mais espaço na lista")
+}
 
-for (let nome of nomeDeAlunos){
-console.log(`Está pessoa se chama ${nome}`)
+let nomePeca= "Disco de Freio"
+if (nomePeca.length > 3){
+    console.log ("Nome da peça estpa de adequado para o cadastro")
+} else if (nomePeca.length == 0){
+    console.log ("O noe da peç nãopode ser vazio")
+} else {  
+console.log("O nome deve ter mais de 3 caracteres, digite um nome adequado")
 }
