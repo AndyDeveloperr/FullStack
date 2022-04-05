@@ -15,9 +15,11 @@ console.log("Não tem mais espaço na lista")
 
 let nomePeca= "Disco de Freio"
 if (nomePeca.length > 3){
-    console.log ("Nome da peça estpa de adequado para o cadastro")
+    console.log ("Nome da peça está de adequado para o cadastro!")
 } else if (nomePeca.length == 0){
-    console.log ("O noe da peç nãopode ser vazio")
+    console.log ("O noe da peça não pode ser vazio")
 } else {  
 console.log("O nome deve ter mais de 3 caracteres, digite um nome adequado")
 }
+
+
