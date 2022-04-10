@@ -1,42 +1,65 @@
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.menu a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-family: 'roboto', sans-serif;
-    font-size: 15px;
-}
-.menu{
-    width: 330px;
-    display: flex;
+#login{
+    background-color:blue;
+    padding-left: 100px;
     justify-content: space-between;
+    width: 30px;
+    position: flex;
+    height: 30px;
+    margin: auto;
 }
-.p{
-    
+#pesquisa{
+    background: url(../img/logo.png);
+    position: flex;
+    display: flex;
+    top: 19px;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin: auto;
+    padding-left: 230px;
+    justify-content: center;
+}
+#menu{
+    align-items: center;
+    color: #000000;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 430px;
 }
 .container-grid{
     background-color: #18792d;
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    height: 83px;
-    margin: auto;
-    align-items: center;
+    height: 35px; 
+    width: 100%;
+    text-align: center;  
 }
+h1{
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+}
+.best-sellers{
+    text-align: center;
+}
+.history{
+    background-color: #18792d;
+    height: 150px; 
+    width: 100%;
+    text-align: center;
 
+}
+p{
     
-
-
-
-
-
-
-
-
-
-
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    text-transform: none;
+}
