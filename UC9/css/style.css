@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-grid{
+    background-color: #18792d;
+    height: 83px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
