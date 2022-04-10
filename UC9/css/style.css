@@ -1,19 +1,32 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+}
 .menu{
-    display: ;
+    width: 330px;
+    display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 100%;
-    margin: auto;
-    align-items: center;
+}
+.p{
+    
 }
 .container-grid{
     background-color: #18792d;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
     height: 83px;
+    margin: auto;
+    align-items: center;
 }
 
     
