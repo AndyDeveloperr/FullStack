@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 .menu{
-    display: inline-block;
+    display: ;
     justify-content: space-between;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
     align-items: center;
 }
 .container-grid{
