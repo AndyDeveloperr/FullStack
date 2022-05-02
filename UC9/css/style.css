@@ -117,14 +117,15 @@
     background-color: #107b10;
     position: absolute;
     width: 1077px;
-    height: 50px;
+    height:45px;
     justify-content: center;
     text-align: center;
     top: 17em;
+    font: normal;
     display: flex;
 }
 h1{
-    color: white;
+    color: rgb(21, 18, 18);
     text-transform: uppercase;
     font-style: normal;
     text-align: center;
@@ -147,7 +148,8 @@ h1{
     position: absolute;
     justify-content: space-around;
     border-radius: 8px;
-    width: 175px;
+    width: 168px;
+    height: 30px;
     top: 7em;
 }
 #pc{
@@ -155,27 +157,26 @@ h1{
     background: #107b10;
     text-align: center;
     border-radius: 10px;
-    left: 6em;
+    left: 6.3em;
 }
 #notebook{
     color: #000000;
     background: #107b10;
     text-align: center;
-    left: 30em;
+    left: 30.3em;
 
 }
 #play{
     color: #000000;
     background: #107b10;
     text-align: center;
-    left: 54em;
+    left: 54.2em;
 }
 .history{ /*retangulo2*/
     background: #107b10;  
-    position: absolute;
+    position: relative;
     width: 1077px;
-    height: 120px;
-    justify-content: center;
+    height: 115px;
     text-align: center;
     top: 35em;
     display: flex;
@@ -185,5 +186,114 @@ p{ /*final do retangulo2*/
     color: #000;
     text-transform: capitalize;
     text-align: center;
+}
+.produtos{
+    position:absolute;
+    align-items: center;
+    width: 1077px;
+    height: 520px;
+    justify-content: space-around;
+    height: 20px;
+    top: 45em;
+    margin: auto;
+    display: flex;
+}
+.produtos input{
+    position: absolute;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 168px;
+    height: 30px;
+}
+.produtos img{
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+#cons{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 4.9em;
+    width: 175px;
+    top:8em;
+}
+#conso{
+    left: 5em;
+    width: 175px;
+    top:-1.5em;
+}
+#acess{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 28em;
+    width: 175px;
+    top: 8em;
+}
+#aces{
+    left: 28em;
+    width: 175px;
+    top:-1.5em;
+}
+#comp{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 50.5em;
+    width: 175px;
+    top: 8em;
+}
+#compu{
+    left: 50.5em;
+    width: 175px;
+    top:-1.5em;
+}
+#games{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 4.9em;
+    top: 20em;
+    width: 175px;
+}
+#gam{
+    left: 5em;
+    width: 175px;
+    top: 11em;
+
+}
+#cust{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 28em;
+    top: 20em;
+    width: 175px;
+}
+#cus{ 
+    left: 28em;
+    top: 11em;
+    width: 175px;
+}
+#comb{ 
+    color: #000000;
+    background: #107b10;
+    text-align: center;
+    border-radius: 10px;
+    left: 50.5em;
+    top: 20em;
+    width: 175px;
+}
+#combo{
+    left: 50.5em;
+    top: 11em;
+    width: 175px;
 }
 
