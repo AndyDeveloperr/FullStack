@@ -296,4 +296,53 @@ p{ /*final do retangulo2*/
     top: 11em;
     width: 175px;
 }
-
+ul{
+    
+}
+.inferior {
+    background: blue;
+    top:33em;   
+    position: relative;
+    top: 65em;
+    display: flex;
+}
+.inferior input{
+    position: absolute;
+    width: 312px;
+    height: 30px;
+    left: 31.5em;
+    top: 3em;
+    transform: translate(-40%, -40%);
+    background: #107b10;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contatos img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email img{
+    position: absolute;
+    left: 31.5em;
+    top: 8em;
+    transform: translate(-40%, -40%);
+}
+.forNews img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 17em;
+    top: 3em;
+}
+.pagamentos{
+    display: ;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    left: 17em;
+    top: 3em;
+}
