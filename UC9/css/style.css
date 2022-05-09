@@ -145,6 +145,9 @@ h1{
     top: 25vh;
 }
 .best input{
+    border: none;
+    background: none;
+    outline: none;
     position: absolute;
     justify-content: space-around;
     border-radius: 8px;
@@ -204,6 +207,9 @@ p{ /*final do retangulo2*/
     border-radius: 8px;
     width: 168px;
     height: 30px;
+    border: none;
+    background: none;
+    outline: none;
 }
 .produtos img{
     position: absolute;
@@ -296,14 +302,11 @@ p{ /*final do retangulo2*/
     top: 11em;
     width: 175px;
 }
-ul{
-    
-}
+
 .inferior {
-    background: blue;
-    top:33em;   
     position: relative;
     top: 65em;
+    height: 300px;
     display: flex;
 }
 .inferior input{
@@ -320,10 +323,31 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-.contatos img{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.novidades{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    width: 0;
+    top: 5px;
+    left: 40px;
+    transition: .5s;
+    text-align: center;
+}
+#loc{
+    position: absolute;
+    top:3em;
+}
+#email{
+    position: absolute;
+    top:8em;
+}
+#telefone{
+    position: absolute;
+    top:13em;
 }
 .email img{
     position: absolute;
@@ -331,18 +355,36 @@ ul{
     top: 8em;
     transform: translate(-40%, -40%);
 }
-.forNews img{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    left: 17em;
-    top: 3em;
+#facebook{
+top: 13em;
+left: 27em;
 }
-.pagamentos{
-    display: ;
+#instagram{
+    top: 13em;
+    left: 33.5em;
+}
+#discord{
+    top: 13em;
+    left: 40em;
+}
+.pagamento{
+    display: flex;
     position: absolute;
-    justify-content: space-between;
-    align-items: center;
-    left: 17em;
-    top: 3em;
+
+    left: 55em;
+}
+#visa{ 
+    position: absolute;
+    top: 5em;
+    left: 1em;
+}
+#mastercard{
+    position: absolute;
+    top: 5.6em;
+    left: 2.1em;
+}
+#payp{
+    position: absolute;
+    top: 9.3em;
+    left: 1.1em;
 }
