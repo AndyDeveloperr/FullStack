@@ -46,7 +46,7 @@
     left: 31.5em;
     top: 10em;
     transform: translate(-40%, -40%);
-    background: #107b10;
+    background: #77dd77;
     padding: 10px;
     border-radius: 20px;
     display: flex;
@@ -107,14 +107,15 @@
     padding: 10px;
     display:inline-block;
     text-decoration:none;
-    transition: background, .4s;
+    transition: background, .1s;
 }
 #menu li a:hover{
-    background-color: #107b10 ;
+    background-color: #bdecb6 ;
+    border-radius: 25px;
 }
 #ban1{
     color: #000;
-    background-color: #107b10;
+    background-color: #77dd77;
     position: absolute;
     width: 1077px;
     height:45px;
@@ -155,28 +156,33 @@ h1{
     height: 30px;
     top: 7em;
 }
+.best img{
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+}
 #pc{
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 6.3em;
 }
 #notebook{
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     left: 30.3em;
 
 }
 #play{
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     left: 54.2em;
 }
 .history{ /*retangulo2*/
-    background: #107b10;  
+    background: #77dd77;  
     position: relative;
     width: 1077px;
     height: 115px;
@@ -216,10 +222,13 @@ p{ /*final do retangulo2*/
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
 }
 #cons{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 4.9em;
@@ -233,7 +242,7 @@ p{ /*final do retangulo2*/
 }
 #acess{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 28em;
@@ -247,7 +256,7 @@ p{ /*final do retangulo2*/
 }
 #comp{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 50.5em;
@@ -261,7 +270,7 @@ p{ /*final do retangulo2*/
 }
 #games{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 4.9em;
@@ -276,7 +285,7 @@ p{ /*final do retangulo2*/
 }
 #cust{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 28em;
@@ -290,7 +299,7 @@ p{ /*final do retangulo2*/
 }
 #comb{ 
     color: #000000;
-    background: #107b10;
+    background: #77dd77;
     text-align: center;
     border-radius: 10px;
     left: 50.5em;
@@ -302,7 +311,6 @@ p{ /*final do retangulo2*/
     top: 11em;
     width: 175px;
 }
-
 .inferior {
     position: relative;
     top: 65em;
@@ -316,7 +324,7 @@ p{ /*final do retangulo2*/
     left: 31.5em;
     top: 3em;
     transform: translate(-40%, -40%);
-    background: #107b10;
+    background: #77dd77;
     padding: 10px;
     border-radius: 20px;
     display: flex;
@@ -327,12 +335,10 @@ p{ /*final do retangulo2*/
     border: none;
     background: none;
     outline: none;
-    padding: 0;
+    top: 9px;
     color: #000;
     font-size: 16px;
     line-height: 20px;
-    width: 0;
-    top: 5px;
     left: 40px;
     transition: .5s;
     text-align: center;
@@ -352,39 +358,18 @@ p{ /*final do retangulo2*/
 .email img{
     position: absolute;
     left: 31.5em;
-    top: 8em;
+    top: 12.5em;
     transform: translate(-40%, -40%);
 }
 #facebook{
-top: 13em;
-left: 27em;
+top: 5em;
+left: 64em;
 }
 #instagram{
-    top: 13em;
-    left: 33.5em;
+    top:10em;
+    left: 64em;
 }
 #discord{
-    top: 13em;
-    left: 40em;
-}
-.pagamento{
-    display: flex;
-    position: absolute;
-
-    left: 55em;
-}
-#visa{ 
-    position: absolute;
-    top: 5em;
-    left: 1em;
-}
-#mastercard{
-    position: absolute;
-    top: 5.6em;
-    left: 2.1em;
-}
-#payp{
-    position: absolute;
-    top: 9.3em;
-    left: 1.1em;
+    top: 15em;
+    left: 64em;
 }
