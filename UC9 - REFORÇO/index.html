@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Game Mania</title>
 </head>
-<body>
-    
-</body>
+<body onload="renderizarNoticias()">
+    <header>
+        <div class="img-sup">
+            <a href="#" class="logo" ><img src="img/logo.png" height="150" width="180"></a>
+            <a href="" class="perfil"><img src="img/perfil.png" height="40" width="40"></a>
+            <a href="#" class="carrinho"><img src="img/carrinho.png"height="35"width="35"></a>
+        </div>
+        <div class="sup">
+            <div class="search-box">
+                <input type="search" class="search-text" placeholder="Pesquisar">
+                <a href="#" class="seach-btn">
+                    <img src="img/lupa.png" alt="Lupa" height="20" width="20">
+                </a>
+            </div>  
+            <nav class="menu">
+                <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Promoções</a></li>
+                <li><a href="">Categorias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    </body>
 </html>
