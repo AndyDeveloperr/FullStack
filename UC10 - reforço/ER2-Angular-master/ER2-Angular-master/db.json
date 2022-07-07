@@ -1,40 +1,40 @@
 {
-    "noticias" :[
-        {
-            "id": 1,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        },
-        {
-            "id": 2,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        },
-        {
-            "id": 3,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        }
-        {
-            "id": 4,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        },
-        {
-            "id": 5,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        },
-        {
-            "id": 6,
-            "imagem": "",
-            "titulo": "Teste",
-            "descrição": "Testando o json"
-        }
-    ]
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "",
+      "titulo": "Teste",
+      "descrição": "Testando o json"
+    },
+    {
+      "imagem": "",
+      "titulo": "paralelepipedo",
+      "descrição": "Testando o json",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "imagem": "",
+      "titulo": "Teste",
+      "descrição": "Testando o json"
+    },
+    {
+      "id": 5,
+      "imagem": "",
+      "titulo": "Teste",
+      "descrição": "Testando o json"
+    },
+    {
+      "id": 6,
+      "imagem": "",
+      "titulo": "Teste",
+      "descrição": "Testando o json"
+    },
+    {
+      "imagem": "",
+      "titulo": "não gosto do tema claro",
+      "descrição": "Testando o json",
+      "id": 7
+    }
+  ]
 }
