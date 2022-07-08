@@ -1,40 +1,45 @@
-{
-  "noticias": [
+"noticias": [
+    {
+      "email": "thiago@email.com",
+      "password": "$2a$10$G0cYDVRVvKUpNlHXgyUZx.5AHA.Vr3Vj31YD5.9537dL1Xcsac7nC",
+      "nome": "Thiago",
+      "id": 1
+    },
+"noticias": [
     {
       "id": 1,
-      "imagem": "",
-      "titulo": "Teste",
-      "descrição": "Testando o json"
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Avaí subiu para a série A",
+      "descricao": "Avaí subiu para a série A do campeonato brasileiro"
     },
     {
-      "imagem": "",
-      "titulo": "paralelepipedo",
-      "descrição": "Testando o json",
-      "id": 2
+      "id": 2,
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Black Friday derruba o preco do Disco de Freio",
+      "descricao": "Black Friday vende pela metade do dobro, o Disco de Freio"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Renato Gaucho demitido",
+      "descricao": "Renato Gaucho foi demitido do Flamengo após jogo contra o Palmeiras"
     },
     {
       "id": 4,
-      "imagem": "",
-      "titulo": "Teste",
-      "descrição": "Testando o json"
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Black Friday derruba o preco do Disco de Freio",
+      "descricao": "Black Friday vende pela metade do dobro, o Disco de Freio"
     },
     {
       "id": 5,
-      "imagem": "",
-      "titulo": "Teste",
-      "descrição": "Testando o json"
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Black Friday derruba o preco do Disco de Freio",
+      "descricao": "Black Friday vende pela metade do dobro, o Disco de Freio"
     },
     {
       "id": 6,
-      "imagem": "",
-      "titulo": "Teste",
-      "descrição": "Testando o json"
-    },
-    {
-      "imagem": "",
-      "titulo": "não gosto do tema claro",
-      "descrição": "Testando o json",
-      "id": 7
+      "imagem": "assets/img/cardnews.png",
+      "titulo": "Black Friday derruba o preco do Disco de Freio",
+      "descricao": "Black Friday vende pela metade do dobro, o Disco de Freio"
     }
   ]
-}

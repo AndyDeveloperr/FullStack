@@ -1,5 +1,5 @@
 
-<form #userForm="ngForm" (ngSubmit)="onSubmit()">
+<!-- <form #userForm="ngForm" (ngSubmit)="onSubmit()">
     <label for="email">Email: </label>
     <input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
 
@@ -8,4 +8,12 @@
     <button type="submit">Enviar</button>
 </form>
 
-<a routerLink="contato">Contato</a>
+<a routerLink="contato">Contato</a> -->
+
+<div id="espaço-noticias" class="content-news">
+    <div *ngFor="let noticia of listaNoticias" class="cardnews">
+        <img [src]="noticia.imagem" alt="Foto da jogadora profisional">
+        <h3>{{ noticia.titulo }}</h3>
+        <p>{{ noticia.descricao }}</p>
+    </div>
+</div>
